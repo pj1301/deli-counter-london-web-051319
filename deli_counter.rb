@@ -15,8 +15,8 @@ def line (line)
   if line.length == 0
   puts "The line is currently empty."
 else
-
-    puts
+  puts "The line is currently: numline.join()"
+end
 end
 
 def take_a_number(line, name)
