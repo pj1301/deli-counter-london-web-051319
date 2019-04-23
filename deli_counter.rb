@@ -9,7 +9,7 @@ def line (line)
  end
    n = 0
    while n < line.length
-     num_line = numbers[i].concat(line[i])
+     num_line = numbers[n].concat(line[n])
      n += 1
    end
   if line.length == 0
