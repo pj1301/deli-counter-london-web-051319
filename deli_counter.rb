@@ -6,10 +6,12 @@ def line (line)
  while i < line.length
    numbers.push("#{i+1}. ")
    i += 1
+ end
    n = 0
    while n < line.length
      num_line = numbers[i].concat(line[i])
      n += 1
+   end
   if line.length == 0
   puts "The line is currently empty."
 else
