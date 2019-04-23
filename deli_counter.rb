@@ -12,7 +12,7 @@ def line (line)
   #  while n < line.length
   #    num_line = numbers[n].concat(line[n])
   #    n += 1
-     binding.pry
+    #  binding.pry
    end
   if line.length == 0
   puts "The line is currently empty."
