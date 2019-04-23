@@ -5,13 +5,13 @@ def line (line)
  numbers = []
  i = 0
  while i < line.length
-   numbers.push("#{i+1}. ")
+   numbers.push("#{i+1}. #{line[i]}")
    i += 1
  end
-   n = 0
-   while n < line.length
-     num_line = numbers[n].concat(line[n])
-     n += 1
+  #  n = 0
+  #  while n < line.length
+  #    num_line = numbers[n].concat(line[n])
+  #    n += 1
      binding.pry
    end
   if line.length == 0
