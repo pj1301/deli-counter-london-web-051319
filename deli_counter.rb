@@ -8,12 +8,6 @@ def line (line)
    numbers.push("#{i+1}. #{line[i]}")
    i += 1
  end
-  #  n = 0
-  #  while n < line.length
-  #    num_line = numbers[n].concat(line[n])
-  #    n += 1
-    #  binding.pry
-  #  end
   if line.length == 0
   puts "The line is currently empty."
 else
