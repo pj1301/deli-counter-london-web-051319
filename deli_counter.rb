@@ -5,6 +5,6 @@ def line (line)
 end
 
 def take_a_number(line, name)
-  
+  line.push(name)
   puts "Welcome, #{name}. You are number #{i+1} in line."
 end
