@@ -5,7 +5,9 @@ def line (line)
  i = 0
  while i < line.length
    numbers.push("#{i+1}. ")
-
+   n = 0
+   while n < line.length
+     num_line = numbers[i].concat(line[i])
   if line.length == 0
   puts "The line is currently empty."
 else
