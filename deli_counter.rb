@@ -13,11 +13,11 @@ def line (line)
   #    num_line = numbers[n].concat(line[n])
   #    n += 1
     #  binding.pry
-   end
+  #  end
   if line.length == 0
   puts "The line is currently empty."
 else
-  puts "The line is currently: #{num_line.join(", ")}"
+  puts "The line is currently: #{numbers.join(" ")}"
 end
 end
 
